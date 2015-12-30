@@ -10,7 +10,10 @@ module.exports = {
   autoCreatedAt: false,
   autoUpdatedAt: false,
   attributes: {
-      
+      id : {type : 'string'},
+      nick : {type : 'string'},
+      nombre : {type : 'string'},
+      apellido : {type : 'string'}
   }
   
 };
