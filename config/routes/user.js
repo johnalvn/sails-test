@@ -3,7 +3,7 @@ module.exports.routes = {
     '/user' : {
         controller : 'User/UserController',
         action : 'getUser'
-    }
+    }/**/
 }
 
 

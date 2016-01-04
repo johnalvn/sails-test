@@ -6,9 +6,13 @@
 */
 
 module.exports = {
-
+  tableName: 'rol',
+  autoCreatedAt: false,
+  autoUpdatedAt: false,
   attributes: {
-
+      id : { type : 'integer' },
+      nombre : { type : 'string' },
+      slug : { type : 'string' },
   }
 };
 
